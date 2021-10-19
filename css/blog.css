@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans",sans-serif;
+}
+
+.heading-of-blogpage{
+    display: flex;
+    margin-top: 8%;
+    height: 50vh;
+}
+
+.blg-hd-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5%;
+}
+
+.heading-of-blogpage > img{
+    position: absolute;
+    right: 18vw;
+}
+
+.blg-hd-div > ul li{
+    color: #41447B    ;
+    padding-right: 10px;
+}
+
+.blg-hd-div > ul{
+    display: flex;
+}
+.blg-hd-div > ul > a{
+    text-decoration: none;
+    color: #41447B;
+    margin-right: 20px;
+}
+
+.blg-hd-div > h1 {
+    text-transform: capitalize;
+    font-family: "DM Sans",sans-serif;
+    color: #41447b;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 50px;
+    line-height: 62px;
+}
+.blogs-section{
+    display: flex;
+}
+
+.single-blog-div{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-left: 2.5%;
+    margin-bottom: 100px;
+}
+
+.single-blog-div > h2{
+    text-transform: capitalize;
+    font-family: "DM Sans",sans-serif;
+font-size: 33px;
+color: #41447b;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.single-blog-div > h2 > span {
+    color: #b72851;
+}
+
+.single-blog-div > p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    color: #41447B;
+}
+
+.single-blog-div > span > a {
+    text-decoration: none;
+    color: #41447B;
+    font-weight: bold;
+    border: 2px solid #41447B;
+    padding: 15px 40px;
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.blogs-div-two > .first-info-blog-div{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 20px  40px ;
+    color: #fff;
+    background-color: #41447B;
+    width: 30vw;
+    vertical-align: middle;
+}
+.blogs-div-two > .first-info-blog-div > i{
+    margin-left: 18px;
+}
+.second-info-blog-div{
+   margin: 60px 0px 40px 50px;
+}
+
+.second-info-blog-div > h1{
+    color: #41447B;
+}
+
+.second-info-blog-div > p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    color: #41447B;
+}

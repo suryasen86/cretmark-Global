@@ -5,6 +5,57 @@
     font-family: "DM Sans",sans-serif;
 }
 
+
+
+/* home page */
+.home-page-section{
+    display: flex;
+    flex-direction: column;
+}
+.home-page-section > .home-section-content {
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.home-page-section > a > img{
+    position: absolute;
+    right: 3%;
+   top: 100px;
+}
+.home-page-section > video{
+    width: 100%;
+}
+.home-section-content{
+    display: flex;
+    flex-direction: column;
+}
+.home-section-content > h1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 120.5%;
+color: #B72851;
+
+}
+
+.home-section-content > p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 139.06%;
+/* or 25px */
+
+
+color: #41447B;
+
+}
+/*end home page */
+
+
+
+
 /* services section */
 .home-services-section{
     margin: 50px 0;
@@ -185,7 +236,40 @@ color: #121212;
 
 
 
+/* testimonal */
 
+.home-Testimonials-section{
+    margin: 100px 0;
+
+}
+
+.home-Testimonials-div1{
+    display: flex;
+    align-items: center;
+    margin-left: 11vw;
+    vertical-align: middle;
+    /* flex-wrap: wrap; */
+}
+.home-Testimonials-div1 > h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+    margin-bottom: 5px;
+    
+    color: #121212;
+}
+
+.home-Testimonials-div1 > img{
+    padding-left: 1vw;
+ width: 15vw;
+ height: 0.2vw;
+ 
+}
+
+/* end testimonals */
 
 
 
@@ -434,7 +518,7 @@ width: 95%;
 /* responsive for mobile */
 
 @media screen and (max-width: 580px) {
-    .home-Process-section > center > img{
+    .home-Testimonials-section > center > img{
         display: none;
     }
 .home-serv-div1{
@@ -524,6 +608,35 @@ margin-left: 10px;
     padding: 5px 0 10px 0;
     margin: 0 2vw;
 }
+
+
+.home-Testimonials-section > center > img{
+    display: none;
+}
+
+.home-Testimonials-section {
+    margin: 15px 0;
+}
+
+.home-Testimonials-div1 {
+    display: flex;
+    align-items: unset;
+    margin-left: 0vw;
+    flex-direction: column;
+   margin-left: 20px;
+}
+.home-Testimonials-div1 > h1 {
+    font-size: 23px;
+    line-height: 70%;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
 .footer-section-1 > .footer-img-1 , .footer-img-2 ,  .footer-img-3{
     display: none;
 }
@@ -595,7 +708,7 @@ margin-left: 10px;
     padding-left: 0%;
     border-left: 0px solid #41447B;
 }
-.permalinks-in-footer ul{}
+
 .permalinks-in-footer ul h1 {
     font-size: 17px;
     color: #B72851;
