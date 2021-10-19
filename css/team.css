@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: #D8D8D8;
+}
+section{
+    display: flex;
+    /* align-self: start; */
+    align-items: center;
+    justify-content:center;
+    flex-direction:column
+}
+.frist {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+        margin-top: 74px;
+        flex-direction: column;
+}
+.frist h1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+
+text-align: center;
+
+color: #41447B;
+}
+
+.frist p {
+    margin-top:8px;
+    width:80%;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 169.06%;
+/* or 30px */
+
+text-align: center;
+
+color: #121212;
+}
+.second{
+    margin-top: 70px;
+    width:80%;
+    /* background-color: red; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+ 
+.inner{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width:25%;
+    /* box-shadow:  2px   2px   2px   2px #4e4d4d; */
+    background-color:#d8d8d85e;
+}
+.member {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  flex-direction: column;
+}
+.member h2{
+    margin-top:10px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+ 
+/* identical to box height, or 67px */
+
+
+color: #41447B;
+}
+.member h3 {
+    margin-top:8px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+ 
+/* identical to box height, or 55px */
+
+text-align: center;
+
+color: #B72851;
+}
+.member p {
+    width: 90%;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 144.06%;
+/* or 26px */
+
+text-align: center;
+}
+
+.social-icons{
+    margin-top:30px
+}
+.social-icons img{
+    margin: 0px 10px;
+}
+.second {
+    margin-bottom: 200px;
+}
+@media only screen and (max-width: 400px) {
+    .frist p {
+        font-size: 12px;
+    }
+    .second{
+        flex-direction: column;
+        margin-top: -70px;
+    }
+    .inner {
+        margin-top:100px;
+        width:100%;
+         
+    }
+}

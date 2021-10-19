@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-page-frist-section{
+    height: 335px;
+    background-color: #41447B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-page-frist-section div {
+    height: 116px;
+    width: 1012px;
+}
+.service-page-frist-section div h1 {
+    /* justify-content: center; */
+    /* font-family: Poppins; */
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 120.5%;
+/* identical to box height, or 116px */
+
+
+color: #F1EEE9;
+}
+
+.service-page-second-section {
+    background: #D8D8D8;
+}
+.check{
+    display:flex;
+    justify-content: center;
+    
+    
+}
+.left{
+    /* background-color: red; */
+    width: 50vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 80px;
+    margin-top: -114px;
+ 
+}
+.right{
+    width: 50vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px; 
+    margin-top: 282px;
+    /* background-color: blue; */
+   
+    
+}
+.s1 {
+    display: flex;
+    flex-direction: column;
+     width: 415px;
+     margin-bottom: 64px;
+}
+
+#service-header h2 {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+align-items:flex-start;
+ 
+color:#41447B;
+
+
+}
+#service-header{
+    margin-top: 16px;
+    display: flex;
+    justify-content:space-between;
+     
+}
+#service-header div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height:40px;
+    width:160px;
+
+}
+#service-header div a{
+    text-decoration:none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #B72851;
+}
+.arrow {
+    margin-left: 10px;
+}
+
+.s1 p{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+ 
+
+
+color: #121212;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .service-page-frist-section div{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .service-page-frist-section div h1{
+        font-size: 44px;
+    }
+    .check {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left {
+        /* background-color: red; */
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+        margin-top: 50px;
+    }
+    .service-page-frist-section div {
+        height: 116px;
+        width: 100wh;
+    }
+    #service-header {
+        margin-top: 16px;
+        display: flex;
+    
+        justify-content:space-between;
+        align-items: center;
+    }
+    .img-responsive {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        margin-top: 0px;
+        /* background-color: blue; */
+    }
+    .s1 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        margin-bottom: 64px;
+    }
+    .s1 p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 18px;
+        color: #121212;
+        text-align: center;
+        width: 80%;
+    }
+    #service-header h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 106%;
+        align-items: flex-start;
+        color: #41447B;
+    }
+    #service-header div a {
+        text-decoration: none;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 120%;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        color: #B72851;
+        padding-left: 20px;
+    }
+    .extra-margin-bottom{
+        margin-bottom: 150px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+  }
+
+  /* service page */

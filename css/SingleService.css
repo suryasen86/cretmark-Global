@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: #D8D8D8;
+}
+
+.service-page-frist-section{
+    height: 335px;
+    background-color: #41447B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-page-frist-section div {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 116px;
+    width: 1012px;
+}
+.service-page-frist-section div h1 {
+ align-items: flex-start;
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 120.5%; 
+color: #F1EEE9;
+}
+
+.check{
+    display: flex;
+    background-color: #D8D8D8;
+
+}
+.left{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.right{
+    width: 50%;
+    /* background-color:blue; */
+    display: flex;
+    margin-top: -50px;
+}
+
+.inner-right-div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 475px;
+}
+.inner-right-div p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 169.06%;
+/* text-align: center; */
+/* or 30px */
+
+
+color: #121212;
+    margin-top: 48px;
+}
+.inner-left-div{
+    margin-top: 120px;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inner-left-div h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+/* or 36px */
+
+
+color: #41447B;
+}
+
+.inner-left-div ul{
+    margin-top: 108px;
+}
+.inner-left-div ul li{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 304.5%;
+/* or 73px */
+
+
+color: #41447B;
+}
+
+.featured-section{
+    margin-top: 167px;
+    background-color: #D8D8D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.featured-section h2 {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+
+text-align: center;
+
+color: #41447B;
+
+}
+.inner-featured-section{
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-bottom: 82px;
+}
+.inner-featured-section img{
+    margin: 0px 8px;
+}
+@media only screen and (max-width: 400px) {
+    .service-page-frist-section{
+        height: 170px;
+    }
+    .service-page-frist-section div{
+       
+        display:flex;
+        align-items: center;
+        justify-content:center;
+         
+            height: 116px;
+            width: 100wh;
+        }
+  
+    .service-page-frist-section div h1{
+        font-size: 44px;
+    }
+    .check {
+  
+        flex-direction: column;
+    }
+    .inner-featured-section {
+        flex-direction: column;
+        width: 95vw;
+        margin-bottom: 139px;
+
+    }
+    .inner-featured-section img {
+        margin: 10px;
+        width: 70%;
+    }
+    .left ,.right{
+        width: 100vw;}
+    .inner-left-div {
+        margin-top: 20px;
+            width: 100vw;
+        }
+
+        .inner-left-div h2 {
+            padding: 0px 10px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 116%;
+            color: #41447B;
+        }
+        .inner-left-div ul li {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 250.5%;
+            color: #41447B;
+        }
+        .inner-left-div ul {
+            margin-top: 10px;
+        }
+        .inner-right-div img{
+              width: 70%;
+             
+        }
+        .inner-right-div{
+            width: 100vw;
+        }
+
+        .inner-right-div p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 161.06%;
+            /* text-align: center; */
+            color: #121212;
+            margin-top: 28px;
+            padding: 0px 20px;
+        }
+        .inner-right-div img {
+            margin-top:77px;
+        }
+}
