@@ -232,8 +232,24 @@ margin-left: 5px;
 .dot-dot-image{
     display: block;
 }
+.single-blog-div > h4 {
+    font-size: 22px;
+color: #41447b;
+line-height: 32px;
+text-transform: capitalize;
+    font-family: "DM Sans",sans-serif;
+    color: #41447b;
+    font-weight: 700;
 
+}
 
+.single-blog-div > h4 > a {
+    outline: 0;
+    text-decoration: underline;
+    font-size: 22px;
+color: #41447b;
+
+}
 
 
 
@@ -306,16 +322,33 @@ margin-left: 5px;
 
     .single-blog-div > blockquote {
         padding: 15px;
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 23px;
     }
     
     .single-blog-div ul {
+        display: flex;
+        flex-direction: column;
         margin-top: 6px;
         font-size: 18px;
         line-height: 30px;
         margin-bottom: 33px;
         color: #41447B;
         margin-left: 5.5%;
+    }
+    .single-blog-div > h2 > a {
+       
+        font-size: 25px;
+       
+    }
+    .seo-ke-liye-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .seo-ke-liye-div > img {
+        margin: 0;
+        margin-right: 0;
     }
   }
 /* End responsive for mobile */
