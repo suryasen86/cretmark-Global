@@ -40,7 +40,7 @@
                     <div id="service-header">
                         <h2>PPC</h2>
                         <div>
-                            <a href="">Learn more <img class="arrow" src="./assets/images/arrow.png" alt=""></a>
+                            <a href="./PayPerClick.php">Learn more <img class="arrow" src="./assets/images/arrow.png" alt=""></a>
                         </div>
                     </div>
                     <p>PPC, one of the most underutilized marketing strategies, vests in itself a colossal power to fetch you leads and high ROI. Our effective PPC campaign targets people who are looking for what you offer and drive them straight to your website so that they can engage with you instead of someone else. </p>

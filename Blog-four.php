@@ -16,7 +16,7 @@
 
         <div class="blg-hd-div">
             <ul>
-               <a href="#">Home</a>
+               <a href="./index.php">Home</a>
                 <li>Blog list</li>
             </ul>
             <h1>Blog Details</h1>
@@ -98,18 +98,18 @@ The above platforms are useful to engage more users, put your business on the di
             <h1>Recent Post</h1>
          <div class="recent-post">
              <img src="img/Blog page/blog-sm-01.jpg" alt="">
-             <a href="#">
+             <a href="./Blog-one.php">
                 How To Create A Winning Website?</a>
          </div>
          <div class="recent-post">
             <img src="img/Blog page/blog-sm-03.jpg" alt="">
-            <a href="#">            
+            <a href="./Blog-two.php">            
 Why SEO Is The Best Online Strategy For 2021?</a>
         </div>
         <div class="recent-post">
             <img src="img/Blog page/blog-sm-01.jpg" alt="">
             
-            <a href="#">              
+            <a href="./Blog-three.php">              
 7 Free Digital Marketing Tools For Small Businesses.</a>
         </div>
         </div>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
  
     <script src="js/index.js"></script>
-   
+ 
 </head>
  <style>
     
@@ -42,32 +42,32 @@
             <div class="single-div-in-service">
                 <img class="single-div-in-service-img" src="img/home page/home-service1.png" alt="">
                 <h2>Branding</h2>
-                <a href="#">LEARN MORE</a>
+                <a href="./Branding&Pr.php">LEARN MORE</a>
             </div>
             <div class="single-div-in-service">
                 <img class="single-div-in-service-img" src="img/home page/home-service2.png" alt="">
                 <h2>Web Design & Development</h2>
-                <a href="#">LEARN MORE</a>
+                <a href="./WebDevelopment.php">LEARN MORE</a>
             </div>
             <div class="single-div-in-service">
                 <img class="single-div-in-service-img" src="img/home page/home-service3.png" alt="">
                 <h2>PPC (Pay-Per-Click)</h2>
-                <a href="#">LEARN MORE</a>
+                <a href="./PayPerClick.php">LEARN MORE</a>
             </div>
             <div class="single-div-in-service">
                 <img class="single-div-in-service-img" src="img/home page/home-service4.png" alt="">
                 <h2>Social Media Management</h2>
-                <a href="#">LEARN MORE</a>
+                <a href="./SocialMediaManagement.php">LEARN MORE</a>
             </div>
             <div class="single-div-in-service">
                 <img class="single-div-in-service-img" src="img/home page/home-service5.png" alt="">
                 <h2>SEO</h2>
-                <a href="#">LEARN MORE</a>
+                <a href="./SearchEngineOptimization.php">LEARN MORE</a>
             </div>
             <div class="single-div-in-service">
                 <img class="single-div-in-service-img" src="img/home page/home-service6.png" alt="">
                 <h2>UI/UX Design </h2>
-                <a href="#">LEARN MORE</a>
+                <a href="./UIUX.php">LEARN MORE</a>
             </div>
 
         </div>
@@ -96,8 +96,9 @@
             <img src="./assets/clients/Screenshot (879).png" alt="">
             <img src="./assets/clients/Screenshot (880).png" alt="">
             <img src="./assets/clients/Screenshot (881).png" alt="">
-            <img src="./assets/clients/Screenshot (882).png" alt="">
             <img src="./assets/clients/Screenshot (883).png" alt="">
+            <img src="./assets/clients/Screenshot (882).png" alt="">
+     
 
         </div>
     </section>
