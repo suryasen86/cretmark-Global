@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="/css/css icon/all.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body onload="myFunction()">
+
+
+<div id="loading"></div>
 <?php require './Navbar.php'; ?>
     <section class="heading-of-blogpage">
 

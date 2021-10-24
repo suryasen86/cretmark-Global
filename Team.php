@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="myFunction()"> 
+<div id="loading"></div>
     <?php require './Navbar.php';?>
     <section>
        <div class="frist">

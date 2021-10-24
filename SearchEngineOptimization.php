@@ -20,8 +20,10 @@
     margin-left: 20px;
 }}
 </style>
+
+<body onload="myFunction()"> 
+<div id="loading"></div>
 <?php require './Navbar.php'; ?>
-<body>
     <section>
         <div class="service-page-frist-section"> 
           <div>

@@ -15,7 +15,8 @@
     margin-left: 20px;
 }}
 </style>
-<body>
+<body onload="myFunction()"> 
+<div id="loading"></div>
 <?php require './Navbar.php'; ?>
     <section>
         <div class="service-page-frist-section"> 
