@@ -8,8 +8,10 @@
     <title>  A Handy Guide to Create a Winning Website For Your Business  </title>
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="/css/css icon/all.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<?php require './Navbar.php'; ?>
     <section class="heading-of-blogpage">
 
         <div class="blg-hd-div">
@@ -30,7 +32,7 @@
         <div class="blogs-div-one">
         <div class="single-blog-div">
             <h2>How To Create A <span> Winning Website?</span></h2>
-            <p><a href="https://purpalyndigital.com/blogs/importance-of-website.html">In today’s digital world it is important to have a website for any business.</a>
+            <p><a href="https://purpalyndigital.com/blogs/importance-of-website.php">In today’s digital world it is important to have a website for any business.</a>
                 Your website is often the first impression a person has of your business. It is available and accessible 24 hours a day. Your potential customers can visit your site any time of the day to know more about your business and services.</p>
                 <p>It has been observed that around 44% to 51% of small businesses don’t have a website. They fail to realize the importance of having a website.</p>
                 <img src="img/Blog page/b2-1.jpeg" alt="">
@@ -47,7 +49,7 @@
 
            
             
-         <h2><a href="https://smallbiztrends.com/2015/10/building-your-first-business-website.html">Here’s How To Build An Amazing Website:</a></h2>
+         <h2><a href="https://smallbiztrends.com/2015/10/building-your-first-business-website.php">Here’s How To Build An Amazing Website:</a></h2>
 
          <ul>
              <li>Choose a <a href="https://www.hostinger.in/">domain</a> name and secure web hosting.</li>
@@ -127,5 +129,6 @@ Why SEO Is The Best Online Strategy For 2021?</a>
     </div>
         
     </section>
+    <?php require './Footer.php'; ?>
 </body>
 </html>

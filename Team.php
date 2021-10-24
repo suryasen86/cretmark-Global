@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/team.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <?php require './Navbar.php';?>
     <section>
        <div class="frist">
             <h1>The Team</h1>
@@ -82,5 +84,6 @@
           
        </div>     
     </section>
+    <?php require './Footer.php'; ?>
 </body>
 </html>

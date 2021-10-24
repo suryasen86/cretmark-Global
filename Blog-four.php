@@ -8,8 +8,10 @@
     <title> Top 7 Must Have Digital Marketing Tools for Budding Businesses</title>
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="/css/css icon/all.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<?php require './Navbar.php'; ?>
     <section class="heading-of-blogpage">
 
         <div class="blg-hd-div">
@@ -114,5 +116,6 @@ Why SEO Is The Best Online Strategy For 2021?</a>
     </div>
         
     </section>
+    <?php require './Footer.php'; ?>
 </body>
 </html>

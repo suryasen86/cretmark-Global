@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/SingleService.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <style>
     @media only screen and (max-width: 400px){
@@ -15,6 +16,7 @@
 }}
 </style>
 <body>
+<?php require './Navbar.php'; ?>
     <section>
         <div class="service-page-frist-section"> 
           <div>
@@ -53,7 +55,7 @@
             </div>
         </div>
     </section>
-
+    <?php require './Footer.php'; ?>
    
 </body>
 </html>

@@ -6,25 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/SingleService.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <style>
-      .service-page-frist-section div h1 {
- 
- margin-bottom: 20px;
-}
     @media only screen and (max-width: 400px){
     .service-page-frist-section div h1 {
  
     margin-left: 20px;
 }}
 </style>
+
 <body>
+<?php require './Navbar.php'; ?>
     <section>
         <div class="service-page-frist-section"> 
           <div>
             <h1>
-                Search Engine Optimization
-
+                Pay Per Link
             </h1>
           </div>
         </div>
@@ -34,7 +32,9 @@
         <div class="check">
             <div class="left">
                 <div class="inner-left-div">
-                    <h2>Let your Website Stand on A Strong Backbone, and that backbone is Search Engine Optimization. 
+                    <h2>Get a Boom in Your Business and Drive Target Traffic to Your Website with Our Managed PPC campaigns
+
+
                     </h2>
 
                     <ul>
@@ -48,21 +48,21 @@
             </div>
             <div class="right">
                 <div class="inner-right-div">
-                    <img src="./assets/images/singleservice/seo.png" alt="">
-                    <p>Our expertly crafted SEO strategies have helped many businesses increase their online presence and grow their revenue. Our array of services will help you get started on the right foot, including keyword research, link building, content creation, and social media management. Our team of experts will work with you at every step to understand your business goals, target market, and industry and create a custom plan that fits your business needs.
+                    <img src="./assets/images/singleservice/ppc.png" alt="">
+                    <p>We are known for leveraging expert PPC campaigns which are undoubtedly one of the most efficient ways of driving targeted traffic to your website or landing page. With this type of marketing strategy, you can reach out and connect with your target audience without spending too much money on advertising costs. It is also essential for those who want their ads displayed when people search specific keywords related to their industry or products they sell online. 
 
-                     
+                    
                         
-                         </p>
-                         <p>
-                            You can trust us to provide expert advice based on our years of experience in digital marketing. We'll make sure your site ranks higher than ever before, so it gets noticed by potential customers who are searching for businesses like yours online. And we promise not to rest until we achieve results that exceed expectations!
-                         </p>
-                   
+                    </p>
+                    <p>
+                        By using pay-per-click (PPC) services, you can control where your ad appears in search engine results pages, drive more qualified leads, and boost conversions with targeted ads. 
+                    </p>
+                    
                 </div>
             </div>
         </div>
     </section>
-
+    <?php require './Footer.php'; ?>
    
 </body>
 </html>

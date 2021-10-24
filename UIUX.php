@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/SingleService.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <style>
     @media only screen and (max-width: 400px){
@@ -15,11 +16,13 @@
 }}
 </style>
 <body>
+<?php require './Navbar.php'; ?>
     <section>
         <div class="service-page-frist-section"> 
           <div>
             <h1>
-                Pay Per Link
+                UI/UX 
+                Design
             </h1>
           </div>
         </div>
@@ -29,9 +32,7 @@
         <div class="check">
             <div class="left">
                 <div class="inner-left-div">
-                    <h2>Get a Boom in Your Business and Drive Target Traffic to Your Website with Our Managed PPC campaigns
-
-
+                    <h2>A good UI/UX Design is the science and art of designing a website so that it is easy to use, fits expectations, and meets business goals. 
                     </h2>
 
                     <ul>
@@ -45,21 +46,23 @@
             </div>
             <div class="right">
                 <div class="inner-right-div">
-                    <img src="./assets/images/singleservice/ppc.png" alt="">
-                    <p>We are known for leveraging expert PPC campaigns which are undoubtedly one of the most efficient ways of driving targeted traffic to your website or landing page. With this type of marketing strategy, you can reach out and connect with your target audience without spending too much money on advertising costs. It is also essential for those who want their ads displayed when people search specific keywords related to their industry or products they sell online. 
+                    <img src="./assets/images/singleservice/ui.png" alt="">
+                    <p> 
+                        Our team of experts has years of experience in creating User Experience, and User Interface(UX/UI) designs that will make it easy and intuitive for users to navigate your site or use your app. If the interface is confusing or difficult to understand, users won't find what they're looking for and may even abandon their search altogether. We can help you create an awesome user experience by ensuring that your site is easy to use, engaging, and intuitive.
 
-                    
+                        
                         
                     </p>
                     <p>
-                        By using pay-per-click (PPC) services, you can control where your ad appears in search engine results pages, drive more qualified leads, and boost conversions with targeted ads. 
+                        
+                        Invest in our UI/UX DESIGN services to bestow yourself with increased revenue, better customer satisfaction, and improved brand loyalty. 
                     </p>
                     
                 </div>
             </div>
         </div>
     </section>
-
+    <?php require './Footer.php'; ?>
    
 </body>
 </html>

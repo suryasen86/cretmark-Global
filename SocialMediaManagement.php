@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/SingleService.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <style>
     @media only screen and (max-width: 400px){
@@ -15,12 +16,12 @@
 }}
 </style>
 <body>
+<?php require './Navbar.php'; ?>
     <section>
         <div class="service-page-frist-section"> 
           <div>
             <h1>
-                UI/UX 
-                Design
+                Social Media Management
             </h1>
           </div>
         </div>
@@ -30,8 +31,7 @@
         <div class="check">
             <div class="left">
                 <div class="inner-left-div">
-                    <h2>A good UI/UX Design is the science and art of designing a website so that it is easy to use, fits expectations, and meets business goals. 
-                    </h2>
+                    <h2>Our Robust Social Media Management Services will Maximize Your Outreach.  </h2>
 
                     <ul>
                         <li>Branding</li>
@@ -44,22 +44,17 @@
             </div>
             <div class="right">
                 <div class="inner-right-div">
-                    <img src="./assets/images/singleservice/ui.png" alt="">
-                    <p> 
-                        Our team of experts has years of experience in creating User Experience, and User Interface(UX/UI) designs that will make it easy and intuitive for users to navigate your site or use your app. If the interface is confusing or difficult to understand, users won't find what they're looking for and may even abandon their search altogether. We can help you create an awesome user experience by ensuring that your site is easy to use, engaging, and intuitive.
-
-                        
-                        
-                    </p>
+                    <img src="./assets/images/singleservice/smm.png" alt="">
+                    <p>We have a team of experts who know how to get your business noticed on Facebook, Twitter, Instagram, Pinterest, and other social media channels. Our services include everything from creating custom content to engaging with customers online. We can help you build an audience and increase sales by ensuring your brand is always top-of-mind when it comes to social media marketing. </p>
                     <p>
-                        
-                        Invest in our UI/UX DESIGN services to bestow yourself with increased revenue, better customer satisfaction, and improved brand loyalty. 
+                        You'll get access to our proprietary tools and software, which allow us to monitor brand mentions across multiple platforms 24/7. Plus, we offer full transparency into how we are performing through weekly reports sent directly to you. It's time for something new – let us show you why Cretmark is the best choice for managing your social media!
                     </p>
                     
                 </div>
             </div>
         </div>
     </section>
+    <?php require './Footer.php'; ?>
 
    
 </body>
