@@ -23,7 +23,7 @@
 
         </div>
         
-        <img src="img/shape-08.svg" alt="">
+        <img  class="dot-dot-image" src="img/shape-08.svg" alt="">
     </section>
 
 
