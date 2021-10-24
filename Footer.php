@@ -163,5 +163,15 @@ setTimeout(() => {
     document.getElementById('canadatime').innerHTML=new Date().toLocaleString('en-US',{timeZone:'Canada/Central',timeStyle:'short',hourCycle:'h24'})
     }, 10000);
 </script>
- 
+<script>
+        var preloader = document.getElementById("loading");
+
+        function myFunction() {
+             
+            preloader.style.display = 'none';
+         
+             
+           
+        };
+    </script>
 <script>(function(w, d) { w.CollectId = "61635657e3ebf6511abe2037"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>

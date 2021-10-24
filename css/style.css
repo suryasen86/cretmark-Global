@@ -4,7 +4,15 @@
     box-sizing: border-box;
     font-family: "DM Sans",sans-serif;
 }
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url(/img/1476.gif) no-repeat center center;
+    z-index: 99999;
 
+    top: 31px;
+}
 /* start navbar  */
 
 

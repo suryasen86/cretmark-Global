@@ -15,7 +15,10 @@
     
 
  </style>
-<body>
+<body onload="myFunction()">
+
+
+<div id="loading"></div>
 <?php require './Navbar.php'; ?>
     
     <section class="home-page-section">
