@@ -23,7 +23,7 @@
     width: 100%;
     display: flex;
     transition: 0.6s;
-    z-index: 10000;
+    z-index: 100;
     box-sizing: border-box;
     vertical-align: middle;
     padding: 2% 0;
