@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "DM Sans",sans-serif;
 }
+
+/* start navbar  */
+
 #loading {
     position: fixed;
     width: 100%;
@@ -13,9 +16,6 @@
 
     top: -31px;
 }
-/* start navbar  */
-
-
 #navbar-header{
     position: fixed;
     top: 0;
