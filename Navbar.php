@@ -12,6 +12,7 @@
         <li>   <a   class="link-active"  href="Team.php">Team</a></li>
         <li><a   class="link-active"  href="Services.php">Services</a></li>
         <li>  <a   class="link-active"  href="Blog.php">Blog</a></li>
+        <li>  <a   class="link-active"  href="contact.php">Contact Us</a></li>
       </ul>
         
     </nav>
