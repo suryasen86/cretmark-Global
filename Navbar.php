@@ -18,7 +18,7 @@
     </nav>
     <p class="navbar-p  mobile">Hello</p>
     <div class="navbar-div mobile">
-        <p>Singapoure   <span id="singaporetime"> </span> </p>
+        <p>Singapore   <span id="singaporetime"> </span> </p>
         <p>Canada   <span id="canadatime"> </span> </p>
         <p>India <span id="indiatime"> </span></p>
     </div>
